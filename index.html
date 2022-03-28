@@ -1,342 +1,214 @@
 <!DOCTYPE html>
-<!--
-Template Name: Pleeness
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
--->
-<html>
+<html lang="en">
 <head>
-<title>azbooka</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <title>Simple landing page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/aos/css/aos.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body id="top">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row0">
-  <div id="topbar" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="fl_left">
-      <ul class="nospace inline pushright">
-        <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-      </ul>
-    </div>
-<!--    <div class="fl_right">-->
-<!--      <ul class="nospace inline pushright">-->
-<!--        <li><i class="fa fa-sign-in"></i> <a href="#">Login</a></li>-->
-<!--        <li><i class="fa fa-user"></i> <a href="#">Register</a></li>-->
-<!--      </ul>-->
-<!--    </div>-->
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row1">
-  <header id="header" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div id="logo" class="fl_left">
-      <h1><a href="index.html">AZBOOKA</a></h1>
-    </div>
-    <div id="search" class="fl_right">
-      <form class="clear" method="post" action="#">
-        <fieldset>
-          <legend>Search:</legend>
-          <input type="search" value="" placeholder="Search Here&hellip;">
-          <button class="fa fa-search" type="submit" title="Search"><em>Search</em></button>
-        </fieldset>
-      </form>
-    </div>
-    <!-- ################################################################################################ -->
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <header id="header-section">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+    <div class="container">
+      <div class="navbar-brand-wrapper d-flex w-100">
+        <div style="width: 180px">
+          <img src="images/logo.svg" alt="">
+        </div>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="mdi mdi-menu navbar-toggler-icon"></span>
+        </button> 
+      </div>
+      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+        <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+          <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+            <div style="width: 140px" class="navbar-collapse-logo">
+              <img src="images/logo.svg" alt="">
+            </div>
+            <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="mdi mdi-close navbar-toggler-icon pl-3"></span>
+            </button>
+          </li>
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href="#header-section">Home</a>-->
+<!--          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#features-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#digital-marketing-section">Blog</a>  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feedback-section">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer" data-toggle="modal" data-target="#exampleModal">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div> 
+    </nav>   
   </header>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <nav id="mainav" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <ul class="clear">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a class="drop" href="#">Pages</a>
-        <ul>
-          <li><a href="pages/gallery.html">Gallery</a></li>
-          <li><a href="pages/full-width.html">Full Width</a></li>
-          <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-          <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-          <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Link Text</a></li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </nav>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/01.png');">
-  <div id="pageintro" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <article>
-      <div class="overlay inspace-30 btmspace-30">
-        <h2 class="heading">Phasellus elementum sem</h2>
-        <p>Eget euismod dui ultricies eget nec ornare enim vivamus volutpat vehicula massa quis ut euismod eget orci ac molestie integer porttitor laoreet vestibulum sed id metus hendrerit euismod.</p>
-      </div>
-      <footer>
-        <ul class="nospace inline pushright">
-          <li><a class="btn" href="#">Vestibulum</a></li>
-          <li><a class="btn inverse" href="#">Aliquam</a></li>
-        </ul>
-      </footer>
-    </article>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <div class="center btmspace-50">
-      <h2 class="heading">Justo non pulvinar</h2>
-      <p>Elit nullam facilisis est quis justo viverra hendrerit donec euismod fringilla justo a auctor.</p>
+  <div style="padding: 48px 0 84px 0" class="banner" >
+    <div class="container">
+      <h1 class="font-weight-semibold">Azbooka group</h1>
+      <h6 class="font-weight-normal text-muted pb-3">Simple is a simple template with a creative design that solves all your marketing and SEO queries.
+        Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.
+        Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.
+        </h6>
+<!--      <div>-->
+<!--        <button class="btn btn-opacity-light mr-1">Get started</button>-->
+<!--        <button class="btn btn-opacity-success ml-1">Learn more</button>-->
+<!--      </div>-->
+<!--      <img src="images/Group171.svg" alt="" class="img-fluid">-->
     </div>
-    <article class="one_third first btmspace-50">
-      <h3 class="font-x1 btmspace-30"><i class="fa fa-2x fa-500px rightspace-10"></i> <a href="#">Aliquam in lacus</a></h3>
-      <p>Bibendum et vestibulum condimentum rutrum arcu sed posuere sem in eu lectus sit amet dolor ultrices suscipit aliquam vestibulum sollicitudin dapibus&hellip;</p>
-    </article>
-    <article class="one_third btmspace-50">
-      <h3 class="font-x1 btmspace-30"><i class="fa fa-2x fa-adjust rightspace-10"></i> <a href="#">Vel velit malesuada</a></h3>
-      <p>Nunc enim sapien elementum ac aliquam in tempus a tortor vivamus at arcu ut tellus fermentum rutrum a eu orci vestibulum ante ipsum primis in faucibus&hellip;</p>
-    </article>
-    <article class="one_third btmspace-50">
-      <h3 class="font-x1 btmspace-30"><i class="fa fa-2x fa-leaf rightspace-10"></i> <a href="#">Gravida nec non</a></h3>
-      <p>Ultrices posuere cubilia curae nam placerat neque eu elit eleifend gravida ut efficitur lacus et ex ullamcorper eget molestie massa lacinia donec euismod&hellip;</p>
-    </article>
-    <article class="one_third first">
-      <h3 class="font-x1 btmspace-30"><i class="fa fa-2x fa-leanpub rightspace-10"></i> <a href="#">Mauris nam mollis</a></h3>
-      <p>Amet nunc feugiat sed volutpat odio mollis duis tellus ante mollis non tellus sit amet facilisis interdum quam morbi imperdiet tincidunt leo ac eleifend&hellip;</p>
-    </article>
-    <article class="one_third">
-      <h3 class="font-x1 btmspace-30"><i class="fa fa-2x fa-legal rightspace-10"></i> <a href="#">Mauris dui sed</a></h3>
-      <p>Elementum mattis vulputate ut euismod vitae nibh nam nulla sapien vehicula nec erat ut sodales tincidunt magna curabitur commodo leo eu felis rhoncus&hellip;</p>
-    </article>
-    <article class="one_third">
-      <h3 class="font-x1 btmspace-30"><i class="fa fa-2x fa-pied-piper-alt rightspace-10"></i> <a href="#">Vestibulum odio</a></h3>
-      <p>Elit nisi tincidunt bibendum lectus condimentum non etiam pulvinar erat et tristique tempor nisi lectus ultricies sapien bibendum interdum sapien&hellip;</p>
-    </article>
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/02.png');">
-  <div class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <article class="center">
-      <h2 class="font-x3 uppercase">Lacus ligula malesuada</h2>
-      <p class="btmspace-50">Ac egestas at justo quisque lobortis ipsum sapien sed lacinia libero</p>
-      <footer>
-        <ul class="nospace inline pushright">
-          <li><a class="btn inverse" href="#">Convallis</a></li>
-          <li><a class="btn" href="#">Vestibulum</a></li>
-        </ul>
-      </footer>
-    </article>
-    <!-- ################################################################################################ -->
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="center btmspace-50">
-      <h2 class="heading">Pretium nec nunc tincidunt</h2>
-      <p>Neque nisl id dictum nisi lacinia vel proin at dolor elit morbi sagittis turpis dolor.</p>
-    </div>
-    <ul class="nospace group">
-      <li class="one_third first">
-        <article class="element">
-          <figure><img src="images/demo/320x210.png" alt="">
-            <figcaption><a href="#"><i class="fa fa-eye"></i></a></figcaption>
-          </figure>
-          <div class="excerpt">
-            <h6 class="heading">Congue dolor venenatis</h6>
-            <time datetime="2045-04-05">5<sup>th</sup> April 2045</time>
-            <p>Id donec feugiat placerat enim facilisis maximus leo pellentesque vitae&hellip;</p>
-            <footer><a href="#">Read More &raquo;</a></footer>
+  <div class="content-wrapper">
+    <div class="container">
+      <section class="features-overview" id="features-section" >
+        <div class="content-header">
+          <h2>How does it works</h2>
+          <h6 class="section-subtitle text-muted">One theme that serves as an easy-to-use operational toolkit<br>that meets customer's needs.</h6>
+        </div>
+        <div class="d-md-flex justify-content-between">
+          <div class="grid-margin d-flex justify-content-start">
+            <div class="features-width">
+              <img src="images/Group12.svg" alt="" class="img-icons">
+              <h5 class="py-3">Speed<br>Optimisation</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <a href="#"><p class="readmore-link">Readmore</p></a>  
+            </div>
           </div>
-        </article>
-      </li>
-      <li class="one_third">
-        <article class="element">
-          <figure><img src="images/demo/320x210.png" alt="">
-            <figcaption><a href="#"><i class="fa fa-eye"></i></a></figcaption>
-          </figure>
-          <div class="excerpt">
-            <h6 class="heading">Tincidunt lectus ex</h6>
-            <time datetime="2045-04-05">5<sup>th</sup> April 2045</time>
-            <p>Vel sagittis dui gravida sit amet morbi porttitor sed neque a porta&hellip;</p>
-            <footer><a href="#">Read More &raquo;</a></footer>
+          <div class="grid-margin d-flex justify-content-center">
+            <div class="features-width">
+              <img src="images/Group7.svg" alt="" class="img-icons">
+              <h5 class="py-3">SEO and<br>Backlinks</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <a href="#"><p class="readmore-link">Readmore</p></a>
+            </div>
           </div>
-        </article>
-      </li>
-      <li class="one_third">
-        <article class="element">
-          <figure><img src="images/demo/320x210.png" alt="">
-            <figcaption><a href="#"><i class="fa fa-eye"></i></a></figcaption>
-          </figure>
-          <div class="excerpt">
-            <h6 class="heading">Convallis venenatis</h6>
-            <time datetime="2045-04-05">5<sup>th</sup> April 2045</time>
-            <p>Ut pellentesque lacus vel dapibus fermentum odio commodo&hellip;</p>
-            <footer><a href="#">Read More &raquo;</a></footer>
+          <div class="grid-margin d-flex justify-content-end">
+            <div class="features-width">
+              <img src="images/Group5.svg" alt="" class="img-icons">
+              <h5 class="py-3">Content<br>Marketing</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <a href="#"><p class="readmore-link">Readmore</p></a>
+            </div>
           </div>
-        </article>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </section>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/03.png');">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div id="cta" class="group">
-      <div class="one_third first"><i class="fa fa-map-marker"></i>
-        <p>Find us</p>
-        <p><a href="#">Google Maps</a></p>
+        </div>
+      </section>     
+      <section class="digital-marketing-service" id="digital-marketing-section">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <h3 class="m-0">We Offer a Full Range<br>of Digital Marketing Services!</h3>
+            <div class="col-lg-7 col-xl-6 p-0">
+              <p class="py-4 m-0 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <p class="font-weight-medium text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>
+            </div>    
+          </div>
+        </div>
+        <div class="row align-items-center">
+<!--          <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">-->
+<!--            <img src="images/Group2.png" alt="" class="img-fluid">-->
+<!--          </div>-->
+          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-right">
+            <h3 class="m-0">Leading Digital Agency<br>for  Business Solution.</h3>
+            <div class="col-lg-9 col-xl-8 p-0">
+              <p class="py-4 m-0 text-muted">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
+              <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p>
+            </div>
+          </div>
+        </div>
+      </section>     
+
+      <section class="customer-feedback" id="feedback-section">
+        <div class="row">
+          <div class="col-12 text-center pb-5">
+            <h2>What our customers have to say</h2>
+            <h6 class="section-subtitle text-muted m-0">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+          </div>
+
+        </div>
+      </section>
+      <p class="border-top" style="margin-bottom: 48px"/>
+      <section class="contact-details" id="contact-details-section">
+        <div class="row text-center text-md-left">
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <div style="width: 180px">
+              <img src="images/logo.svg" alt="" class="pb-2">
+            </div>
+            <div class="pt-2">
+              <p class="text-muted m-0">mikayla_beer@feil.name</p>
+              <p class="text-muted m-0">906-179-8309</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Get in Touch</h5>
+            <p class="text-muted">Don’t miss any updates of our new templates and extensions.!</p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Our Guidelines</h5>
+            <a href="#"><p class="m-0 pb-2">Terms</p></a>
+            <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a>
+            <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a>
+            <a href="#"><p class="m-0 pt-1">Discover</p></a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+              <h5 class="pb-2">Our address</h5>
+              <p class="text-muted">518 Schmeler Neck<br>Bartlett. Illinois</p>
+              <div class="d-flex justify-content-center justify-content-md-start">
+                <a href="#"><span class="mdi mdi-facebook"></span></a>
+                <a href="#"><span class="mdi mdi-twitter"></span></a>
+                <a href="#"><span class="mdi mdi-instagram"></span></a>
+                <a href="#"><span class="mdi mdi-linkedin"></span></a>
+              </div>
+          </div>
+        </div>  
+      </section>
+<!--      <footer class="border-top">-->
+<!--        <p class="text-center text-muted pt-4">A</p>-->
+<!--      </footer>-->
+      <!-- Modal for Contact - us Button -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="Name">Name</label>
+                  <input type="text" class="form-control" id="Name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="Message">Message</label>
+                  <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Submit</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="one_third"><i class="fa fa-phone"></i>
-        <p>Call us</p>
-        <p>+00 (123) 456 7890</p>
-      </div>
-      <div class="one_third"><i class="fa fa-envelope-o"></i>
-        <p>Email us</p>
-        <p>info@domain.com</p>
-      </div>
-    </div>
-    <!-- ################################################################################################ -->
-    <div class="group">
-      <div class="one_quarter first">
-        <h6 class="title">Diam cras vel magna</h6>
-        <p>Dapibus sit amet erat eu pellentesque praesent nec cursus arcu in leo velit pulvinar et est nec bibendum maximus justo maecenas.</p>
-        <p>Volutpat arcu cursus lobortis nunc felis neque rhoncus sit amet ex non facilisis facilisis libero vestibulum.</p>
-      </div>
-      <div class="one_quarter">
-        <h6 class="title">Vulputate pulvinar</h6>
-        <ul class="nospace linklist">
-          <li><a href="#">Vulputate finibus quam ut</a></li>
-          <li><a href="#">Sed dolor et augue semper</a></li>
-          <li><a href="#">Luctus quisque malesuada</a></li>
-          <li><a href="#">Vehicula nunc id fermentum</a></li>
-          <li><a href="#">Morbi ultrices velit ac</a></li>
-        </ul>
-      </div>
-      <div class="one_quarter">
-        <h6 class="title">Aliquet eleifend</h6>
-        <ul class="nospace linklist">
-          <li><a href="#">Pharetra pellentesque feugiat</a></li>
-          <li><a href="#">Nunc ut bibendum porttitor</a></li>
-          <li><a href="#">Nam at sollicitudin sapien</a></li>
-          <li><a href="#">A auctor ligula nullam tincidunt</a></li>
-          <li><a href="#">Arcu commodo condimentum</a></li>
-        </ul>
-      </div>
-      <div class="one_quarter">
-        <h6 class="title">Aliquam tristique</h6>
-        <ul class="nospace linklist">
-          <li>
-            <article>
-              <h2 class="nospace font-x1"><a href="#">Sit amet elit pharetra</a></h2>
-              <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-              <p class="nospace">Cursus phasellus cursus ipsum sed neque pellentesque&hellip;</p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <h2 class="nospace font-x1"><a href="#">Condimentum vulputate</a></h2>
-              <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-              <p class="nospace">Dui nunc lacinia arcu vitae porta quam quam vitae&hellip;</p>
-            </article>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row5">
-  <div id="social" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_half first">
-      <h6 class="title">Social Media</h6>
-      <ul class="faico clear">
-        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="faicon-pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-        <li><a class="faicon-youtube" href="#"><i class="fa fa-youtube"></i></a></li>
-        <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
-      </ul>
-    </div>
-    <div class="one_half">
-      <h6 class="title">Newsletter subscription</h6>
-      <form class="clear" method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input type="text" value="" placeholder="Type Email Here&hellip;">
-          <button class="fa fa-share" type="submit" title="Submit"><em>Submit</em></button>
-        </fieldset>
-      </form>
-    </div>
-    <!-- ################################################################################################ -->
+    </div> 
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row6">
-  <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-<!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
-<!-- IE9 Placeholder Support -->
-<script src="layout/scripts/jquery.placeholder.min.js"></script>
-<!-- / IE9 Placeholder Support -->
+  <script src="vendors/jquery/jquery.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
+  <script src="vendors/aos/js/aos.js"></script>
+  <script src="js/landingpage.js"></script>
 </body>
 </html>
