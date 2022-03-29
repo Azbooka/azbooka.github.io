@@ -1,11 +1,4 @@
-'use strict';
 
-/**
- * @ngdoc function
- * @name azbookaApp.controller:MainCtrl
- * @description
- * # MainCtrl
- */
 angular.module('azbookaApp')
     .controller('MainCtrl', function($scope, $location, $anchorScroll, $timeout) {
 
@@ -48,8 +41,7 @@ $(document).on('click', 'a[href^="#"]', function(event) {
 });
 
 
-// Ajax sending email via smtp server on elasticemail.com
-// Later may be changed to something else
+
 function sendEmail() {
     let form = document.querySelector('form.gform');
     var elements = form.elements;
