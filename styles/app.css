@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Basis Grotesque Pro';
-    src: url('fonts/BasisGrotesquePro-Regular.woff2') format('woff2'), url('fonts/BasisGrotesquePro-Regular.woff') format('woff'), url('fonts/BasisGrotesquePro-Regular.svg#BasisGrotesquePro-Regular') format('svg');
+    font-family: 'GothaProMed';
+    src: url('fonts/GothaProMed.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,8 +10,8 @@
 }
 
 body {
-    font-family: 'Basis Grotesque Pro', Arial, sans-serif;
-    color: rgba(0, 0, 0, 0.87)
+    font-family: 'GothaProMed';
+    color: rgba(0, 0, 0, 1)
 }
 
 .main-container {
@@ -206,7 +206,7 @@ a:focus {
 
 .tag-cloud__unit {
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.12);
+    background-color: #e2e2e2;
     height: 30px;
     margin-right: 5px;
     margin-bottom: 6px;
@@ -219,11 +219,16 @@ a:focus {
 }
 
 #who-id {
-    padding-top: 66px;
+    margin-top: 26px;
+    padding: 66px 0 50px 0;
     background: no-repeat;
     background-image: url("../images/Pattern.png");
     background-size: cover;
 }
+#who-id1 {
+    padding-top: 66px;
+}
+
 
 section {
     padding-top: 66px;
@@ -790,7 +795,7 @@ type="text"
         margin-left: 0;
     }
     .main-screen__head {
-        width: 460px;
+        /*width: 460px;*/
     }
     .main-screen__title {
         font-size: 32px;
