@@ -17,7 +17,7 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
         // главная, состояние и вид ========================================
         .state('home', {
             url: '/',
-            templateUrl: 'views/main.html',
+            templateUrl: 'app/app.html',
             controller: 'MainCtrl'
         })
 

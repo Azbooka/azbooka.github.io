@@ -43,8 +43,13 @@ a:focus {
     text-decoration: none !important;
 }
 
+.main-container__up{
+    display: flex;
+    background: no-repeat;
+    background-image: url("../images/Pattern.png");
+    background-size: cover;
+}
 .main-container__top {
-    background-color: #F2F2F2;
     padding-bottom: 66px;
 }
 
@@ -160,6 +165,8 @@ a:focus {
     color: #fff;
     text-decoration: none;
     background: #007edd;
+    justify-content: center;
+
 }
 
 .aside-container__btn_flex {
@@ -369,17 +376,20 @@ p {
     right: -20px;
     cursor: pointer;
     opacity: .4;
-    font-size: 60px;
+    color: black;
+    font-size: 45px;
     text-align: center;
     line-height: 40px;
 }
 
 .simple-popup {
     display: none;
-    width: 720px;
-    padding: 60px 60px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 40px 40px;
     border: 0.5px solid rgba(0, 0, 0, 0.06);
-    border-radius: 20px;
+    border-radius: 16px;
     background-color: #FFFFFF;
     box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.1), 0 15px 50px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -398,6 +408,8 @@ p {
 .simple-popup__header {
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 40px;
     padding-right: 60px;
 }
@@ -421,7 +433,10 @@ p {
     align-items: center;
 }
 
-.simple-form__input[type="text"],
+.simple-form__input[
+type="text"
+
+],
 .simple-form__input[type="tel"],
 .simple-form__textarea {
     color: rgba(0, 0, 0, 0.87);
@@ -825,6 +840,8 @@ p {
 
 @media screen and (max-width: 768px) {
     .container {
+        justify-content: center;
+        align-items: center;
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
@@ -990,7 +1007,7 @@ p {
     .simple-popup__close {
         top: 13px;
         right: 15px;
-        background-size: 20px 20px;
+        background-size: 15px 15px;
     }
     .simple-form__line {
         display: block;
