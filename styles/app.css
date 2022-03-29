@@ -5,13 +5,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GothaProMed';
+    src: url('./fonts/GothaProMed.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'GothaProReg', sans-serif;
+    font-family: 'GothaProReg', Arial, sans-serif;
     color: rgba(0, 0, 0, 1)
+}
+
+h1{
+    font-family: 'GothaProMed', Arial, sans-serif;
+    color: rgba(0, 0, 0, 1);
+    line-height: 1.55;
+    font-weight: 300;
 }
 
 .main-container {
@@ -156,7 +170,7 @@ a:focus {
     height: 40px;
     font-size: 20px;
     letter-spacing: -0.18px;
-    line-height: 24px;
+    line-height: 14px;
     background: #007edd;
 }
 
@@ -269,9 +283,9 @@ section {
 
 p {
     color: rgba(0, 0, 0, 0.87);
-    font-size: 17px;
-    line-height: 30px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.55;
+    font-weight: 300;
 }
 
 .info-about__subtitle {
