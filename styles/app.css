@@ -23,7 +23,7 @@ body {
 
 h1{
     font-family: 'GothaProMed', Arial, sans-serif;
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, .85);
     line-height: 1.55;
     font-weight: 300;
 }
@@ -75,9 +75,9 @@ a:focus {
     margin-bottom: 74px;
 }
 
-.top-site__logo {
-    margin-right: 60px;
-}
+/*.top-site__logo {*/
+/*    margin-right: 60px;*/
+/*}*/
 
 .top-site__burger {
     display: none;
@@ -785,14 +785,15 @@ type="text"
 /*    text-align: right;*/
 /*}*/
 
-.connect__btn{
-    justify-content: flex-end;
-}
 
 @media screen and (min-width: 1024px ) {
     .top-site {
         justify-content: space-between;
         position: relative;
+    }
+    .connect__btn{
+        justify-content: flex-end;
+        /*float: right;*/
     }
 }
 @media screen and (max-width: 1024px) {
@@ -800,8 +801,14 @@ type="text"
         width: 100%;
         padding: 0 30px;
     }
+    .connect__btn{
+        justify-content: flex-end;
+        /*float: right;*/
+    }
     .top-site__logo {
-        margin-right: 20px;
+        /*margin-right: 20px;*/
+        justify-content: center;
+        align-items: center;
     }
     .main-navigation__link {
         font-size: 16px;
@@ -877,8 +884,12 @@ type="text"
         padding-right: 20px;
         min-width: 320px;
     }
+    .connect__btn{
+        justify-content: flex-end;
+        /*float: right;*/
+    }
     .top-site__logo {
-        margin-right: 20px;
+        /*margin-right: 20px;*/
     }
     .main-navigation__link {
         font-size: 18px;
@@ -1102,4 +1113,23 @@ type="text"
     .simple-popup__header {
         margin-bottom: 48px;
     }
+}
+
+@media screen and (max-width: 535px) {
+    .top-site {
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    .top-site__logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .connect__btn{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
 }
