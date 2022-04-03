@@ -113,8 +113,8 @@ a:focus {
 .main-screen__title {
     margin-top: 0;
     color: rgba(0, 0, 0, 0.87);
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: normal;
     letter-spacing: -0.4px;
     line-height: 50px;
     margin-bottom: 20px;
@@ -200,7 +200,7 @@ a:focus {
 
 .tag-cloud__title {
     color: rgba(0, 0, 0, 0.87);
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
     margin: 0;
     margin-bottom: 16px;
@@ -229,7 +229,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     padding: 0 5px;
-    font-size: 21px;
+    font-size: 19px;
     white-space: nowrap;
 }
 
@@ -269,8 +269,8 @@ section {
 
 .info-about__title {
     color: rgba(0, 0, 0, 0.87);
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: normal;
     letter-spacing: -0.4px;
     line-height: 50px;
     margin-bottom: 30px;
@@ -283,9 +283,10 @@ section {
 
 p {
     color: rgba(0, 0, 0, 0.87);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.55;
     font-weight: 300;
+    magrin: 20px 0 0;
 }
 
 .info-about__subtitle {
@@ -820,7 +821,7 @@ type="text"
         /*width: 460px;*/
     }
     .main-screen__title {
-        font-size: 32px;
+        font-size: 28px;
         line-height: 40px;
     }
     .aside-container__title {
@@ -828,7 +829,7 @@ type="text"
         line-height: 30px;
     }
     .info-about__title {
-        font-size: 38px;
+        font-size: 28px;
         margin-bottom: 20px;
     }
     .info-about {
@@ -942,7 +943,7 @@ type="text"
         font-size: 20px;
     }
     .info-about__title {
-        font-size: 35px;
+        font-size: 28px;
         letter-spacing: -.51px;
         line-height: 40px;
     }
