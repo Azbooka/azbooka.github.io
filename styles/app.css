@@ -75,10 +75,6 @@ a:focus {
     margin-bottom: 74px;
 }
 
-/*.top-site__logo {*/
-/*    margin-right: 60px;*/
-/*}*/
-
 .top-site__burger {
     display: none;
 }
@@ -179,7 +175,6 @@ a:focus {
     text-decoration: none;
     background: #007edd;
     justify-content: center;
-
 }
 
 .aside-container__btn_flex {
@@ -783,9 +778,6 @@ type="text"
         opacity: 0;
     }
 }
-/*.top-site__menu {*/
-/*    text-align: right;*/
-/*}*/
 
 
 @media screen and (min-width: 1024px ) {
@@ -1140,12 +1132,10 @@ type="text"
         display: block;
         margin-bottom: 24px;
     }
-
     .top-site__logo{
         display: flex;
         justify-content: center;
     }
-
     .connect__btn{
         margin-top: 40px;
         display: flex;
@@ -1157,5 +1147,4 @@ type="text"
         height: 100vh;
         border-radius: 0;
     }
-
 }
