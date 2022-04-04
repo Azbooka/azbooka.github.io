@@ -879,6 +879,23 @@ type="text"
     }
 }
 
+@media screen and (max-width: 968px) {
+    .footer-site {
+        display: block;
+    }
+    .footer-links {
+        display: block;
+        margin: 0;
+        margin-left: 22px;
+    }
+    .footer-links__item {
+        display: block;
+        margin: 0;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
 
@@ -993,6 +1010,7 @@ type="text"
     .footer-links {
         display: block;
         margin: 0;
+        margin-left: 22px;
     }
     .footer-links__item {
         display: block;

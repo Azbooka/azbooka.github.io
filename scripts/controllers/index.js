@@ -25,9 +25,7 @@ $(document).mouseup(function(e) {
     let container = $("#YOUR_TARGETED_ELEMENT_ID");
 
     if (!container.is(e.target) && container.has(e.target).length === 0) {
-
         container.fadeOut();
-
     }
 });
 
@@ -39,7 +37,6 @@ $(document).on('click', 'a[href^="#"]', function(event) {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 600);
 });
-
 
 
 function sendEmail() {
