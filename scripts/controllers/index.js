@@ -89,6 +89,6 @@ function sendEmail() {
         Subject: "Сообщение с сайта azbooka.ru",
         Body: result
     }).then(
-        document.querySelector('.thankyou__message').style.animation = 'thankyou-animation 5s linear'
+        document.querySelector('.thankYou__message').style.animation = 'thankYou-animation 6s linear'
     );
 }

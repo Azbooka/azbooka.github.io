@@ -1,14 +1,6 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name azbookaApp
- * @description
- * # azbookaApp
- *
- * Main module of the application.
- */
-var myApp = angular
+let myApp = angular
     .module('azbookaApp', ['ui.router']);
 
 myApp.config(function($stateProvider, $urlRouterProvider) {

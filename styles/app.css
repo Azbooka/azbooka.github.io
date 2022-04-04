@@ -742,7 +742,7 @@ type="text"
     top: 280px;
 }
 
-.thankyou__message {
+.thankYou__message {
     margin: 0 auto;
     position: absolute;
     /*top: 100px;*/
@@ -758,12 +758,12 @@ type="text"
     opacity: 0;
 }
 
-.thankyou__message span {
+.thankYou__message span {
     font-size: 2vh;
     font-weight: normal;
 }
 
-@keyframes thankyou-animation {
+@keyframes thankYou-animation {
     0% {
         opacity: 1;
         top: 0;
@@ -779,7 +779,6 @@ type="text"
     }
 }
 
-
 @media screen and (min-width: 1024px ) {
     .top-site {
         justify-content: space-between;
@@ -788,6 +787,12 @@ type="text"
     .connect__btn{
         justify-content: flex-end;
         /*float: right;*/
+    }
+    .aside-container__btn {
+        max-width: 240px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -869,6 +874,12 @@ type="text"
         justify-content: space-between;
         position: relative;
     }
+    .aside-container__btn {
+        max-width: 240px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 968px) {
@@ -885,6 +896,12 @@ type="text"
         margin: 0;
         margin-top: 10px;
         font-size: 16px;
+    }
+    .aside-container__btn {
+        max-width: 240px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
 }
 
