@@ -83,11 +83,12 @@ function sendEmail() {
         result += "<h4 style='text-transform: capitalize; margin-bottom: 0'>" + value + "</h4><div>" + formData[value] + "</div>";
     }
     Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "sss@azbooka.ru",
-        Password: "04383f77-4d1b-49ef-9c86-588dd5b2bcb6",
-        To: 'filipp@azbooka.ru',
-        From: "filipp@azbooka.ru",
+        Host: "smtp.yandex.ru",
+        Port: 587
+        Username: "bug@idesk.su",
+        Password: ".6XR5t$K5s9creZ",
+        To: 'jetquery@yandex.ru',
+        From: "bug@idesk.su",
         Subject: "Сообщение с сайта azbooka.ru",
         Body: result
     }).then(
