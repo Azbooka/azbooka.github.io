@@ -763,8 +763,8 @@ type="text"
 }
 
 .thankyou__message span {
-    font-size: 3vh;
-    font-weight: bold;
+    font-size: 2vh;
+    font-weight: normal;
 }
 
 @keyframes thankyou-animation {
