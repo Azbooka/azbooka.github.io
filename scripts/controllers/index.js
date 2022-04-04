@@ -84,7 +84,6 @@ function sendEmail() {
     }
     Email.send({
         Host: "smtp.yandex.ru",
-        Port: 587
         Username: "bug@idesk.su",
         Password: ".6XR5t$K5s9creZ",
         To: 'jetquery@yandex.ru',
