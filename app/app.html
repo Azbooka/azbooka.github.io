@@ -251,8 +251,7 @@
                     </fieldset>
 
                     <div>
-                        <button style="justify-content: center; align-items: center;"
-                                class="aside-container__btn aside-container__btn_flex" onClick="sendEmail()"
+                        <button class="aside-container__btn aside-container__btn_flex" onClick="sendEmail()"
                                 ng-click="simplePopup = false">
                             Отправить
                         </button>
@@ -260,19 +259,5 @@
                 </div>
             </form>
         </div>
-
-        <script>
-            $(function () {
-                $('.popup-gallery__carousel img:gt(0)').hide();
-                $('.carousel__btn-bg-right').click(function () {
-                    $('.popup-gallery__carousel :first-child').fadeOut()
-                        .next('img').fadeIn()
-                        .end().appendTo('.popup-gallery__carousel');
-                });
-                $('.carousel__btn-bg-left').click(function () {
-                    $('.popup-gallery__carousel :first-child').fadeOut()
-                        .prev('img').fadeIn()
-                        .end().appendTo('.popup-gallery__carousel');
-                });
-            });
-        </script>
+    </div>
+</div>
