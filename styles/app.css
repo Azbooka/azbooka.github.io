@@ -750,13 +750,14 @@ type="text"
 .thankyou__message {
     margin: 0 auto;
     position: absolute;
-    top: 100px;
+    /*top: 100px;*/
     left: 50%;
     transform: translateX(-50%);
     align-items: center;
     display: inline-flex;
-    height: 100px;
+    /*height: 100px;*/
     background: #007edd;
+    color: white;
     padding: 20px;
     border-radius: 10px;
     opacity: 0;
@@ -836,7 +837,7 @@ type="text"
         /*padding-right: 10px;*/
     }
     .simple-popup {
-        width: 740px;
+        width: 600px;
         padding: 50px;
     }
     .simple-popup__close {
@@ -1030,7 +1031,7 @@ type="text"
         position: relative;
     }
     .simple-popup {
-        width: 100%;
+        width: 570px;
         padding: 30px;
         height: 100vh;
         border-radius: 0;
@@ -1131,6 +1132,12 @@ type="text"
         margin-top: 40px;
         display: flex;
         justify-content: center;
+    }
+    .simple-popup {
+        width: 100%;
+        padding: 30px;
+        height: 100vh;
+        border-radius: 0;
     }
 
 }

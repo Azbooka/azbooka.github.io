@@ -22,7 +22,7 @@ angular.module('azbookaApp')
 
 $(document).mouseup(function(e) {
 
-    var container = $("#YOUR_TARGETED_ELEMENT_ID");
+    let container = $("#YOUR_TARGETED_ELEMENT_ID");
 
     if (!container.is(e.target) && container.has(e.target).length === 0) {
 
@@ -44,9 +44,9 @@ $(document).on('click', 'a[href^="#"]', function(event) {
 
 function sendEmail() {
     let form = document.querySelector('form.gform');
-    var elements = form.elements;
+    let elements = form.elements;
 
-    var fields = Object.keys(elements).filter(function(k) {
+    let fields = Object.keys(elements).filter(function(k) {
         return (elements[k].name !== "honeypot");
     }).map(function(k) {
         if (elements[k].name !== undefined) {
@@ -59,18 +59,18 @@ function sendEmail() {
         return self.indexOf(item) == pos && item;
     });
 
-    var formData = {};
+    let formData = {};
     fields.forEach(function(name) {
-        var element = elements[name];
+        let element = elements[name];
 
         // singular form elements just have one value
         formData[name] = element.value;
 
         // when our element has multiple items, get their values
         if (element.length) {
-            var data = [];
-            for (var i = 0; i < element.length; i++) {
-                var item = element.item(i);
+            let data = [];
+            for (let i = 0; i < element.length; i++) {
+                let item = element.item(i);
                 if (item.checked || item.selected) {
                     data.push(item.value);
                 }
@@ -79,7 +79,7 @@ function sendEmail() {
         }
     });
     let result = '';
-    for (var value in formData) {
+    for (let value in formData) {
         result += "<h4 style='text-transform: capitalize; margin-bottom: 0'>" + value + "</h4><div>" + formData[value] + "</div>";
     }
     Email.send({
